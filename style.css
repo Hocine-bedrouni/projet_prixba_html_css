@@ -1,3 +1,508 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.footersection3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2D4059;
+  color: white;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+.footersection3 a {
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.footersection2 {
+  background-color: #E5E5E5;
+  color: #2D4059;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.footersection2part1 {
+  display: flex;
+  flex-direction: column;
+  color: #2D4059;
+}
+
+.footersection2part2 {
+  display: flex;
+  flex-direction: column;
+  color: #2D4059;
+}
+
+.footersection2part2 a {
+  color: #2D4059;
+  text-decoration: none;
+  padding: 10px;
+  text-align: right;
+}
+
+.footersection2part1 a {
+  color: #2D4059;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footersection1 {
+  background-color: #2D4059;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.footersection1 p {
+  color: white;
+}
+
+.footersection1 span {
+  color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #E5E5E5;
+  margin-right: 15px;
+  padding-top: 2px;
+}
+
+.footersection1 p:nth-child(2) {
+  font-size: smaller;
+  color: white;
+}
+
+.footersection1part1, .footersection1part2, .footersection1part3, .footersection1part4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(229, 229, 229);
+  padding: 0 0.5em 0 0.5em;
+}
+
+.logo {
+  align-items: center;
+}
+
+.nv {
+  display: flex;
+}
+
+.ai {
+  font-size: 9px;
+  color: black;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 121% */
+  text-align: right;
+  letter-spacing: -0.015em;
+}
+
+.nv {
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.navig1 {
+  align-self: center;
+}
+
+.h6 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 17px;
+}
+
+.navitm {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.cercle {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background: #EA5455;
+  font-size: 13px;
+  color: white;
+  margin-right: 5px;
+}
+
+.navbar1 {
+  background-color: #2D4059;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.search {
+  background: #EA5455;
+  margin-right: 10px;
+}
+
+.a2 {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.panier {
+  color: #fff;
+  height: 16px;
+  width: 16px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.navigo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cercl {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #e1d8d8;
+  font-size: 7px;
+  color: #EA5455;
+  text-align: center;
+  padding-top: 2px;
+}
+
+.fleche {
+  background-color: #EA5455;
+}
+
+.titreindex {
+  justify-self: center;
+  margin: 0;
+}
+
+.soustitreindex {
+  padding: 0;
+  margin: 0;
+}
+
+.box-index h5:nth-child(2) {
+  color: rgb(97, 212, 97);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.contenu-index {
+  max-width: 750px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 100px;
+}
+
+.img-index {
+  background-image: url("./images/autres/christin-hume-mfB1B1s4sMc-unsplash.jpg");
+}
+
+.sectionindex1 {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.sectionindex3 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.box-index div {
+  display: flex;
+  position: relative;
+}
+
+.grandtitreindex {
+  color: red;
+}
+
+.box-index {
+  border: 0.1em solid rgba(201, 201, 204, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 150px;
+  margin-right: 10px;
+  height: auto;
+  display: flex;
+  padding: 7px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.sectionindex2box {
+  display: inline-grid;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.boxindexsection2 {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 120px;
+  background-color: rgb(64, 64, 106);
+  height: 120px;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.indexi {
+  font-size: 36px;
+  color: white;
+  height: auto;
+}
+
+.boxindexsection2 p {
+  color: white;
+}
+
+.choix {
+  text-decoration: none;
+  color: red;
+  justify-self: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.voirplusindex {
+  padding-left: 10px;
+}
+
+.decouvririndex {
+  display: flex;
+  align-items: center;
+}
+
+.sectionindex3 > .box-index {
+  box-shadow: none;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+  .sectionindex3 {
+    flex-wrap: wrap;
+  }
+
+  .sectionindex2 {
+    flex-wrap: wrap;
+  }
+
+  .sectionindex2box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+main {
+  display: flex;
+  padding-top: 80px;
+}
+
+.global {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.aside {
+  margin-right: 50px;
+  padding-left: 80px;
+}
+
+.affichage {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sec1 {
+  display: flex;
+  margin-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 190px;
+}
+
+.sec2 {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.sec1 > div > p {
+  font-size: 25px;
+}
+
+.sec1 > img {
+  margin-right: 45px;
+  padding: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec2 > img {
+  width: 150px;
+  padding-left: 30px;
+}
+
+.stock {
+  color: rgb(80, 214, 80);
+}
+
+.libelle {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.sec2 > .stock {
+  position: absolute;
+  right: 8px;
+  bottom: 1px;
+}
+
+.red {
+  color: red;
+}
+
+li {
+  font-size: 23px;
+  list-style-type: circle;
+}
+
+.aff > p {
+  font-size: 26px;
+}
+
+.bouton {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #f44336;
+  height: 40px;
+  border-radius: 12px;
+}
+
+.bouton:hover {
+  background-color: #ffffff;
+  color: rgb(255, 0, 0);
+}
+
+.aff {
+  display: flex;
+  padding-right: 5px;
+}
+
+.aff > img {
+  margin-left: 15px;
+  padding-top: 25px;
+}
+
+.as {
+  display: flex;
+}
+
+.as > img {
+  padding-top: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */
