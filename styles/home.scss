@@ -1,0 +1,120 @@
+.fleche{
+    background-color: #EA5455;
+}
+
+.titreindex{
+    justify-self: center;
+    margin: 0;
+}
+.soustitreindex{
+    padding: 0;
+    margin: 0;
+}
+.box-index h5:nth-child(2){
+    color: rgb(97, 212, 97);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.contenu-index{
+    max-width: 750px;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 100px;
+}
+.img-index{
+    background-image: url("./images/autres/christin-hume-mfB1B1s4sMc-unsplash.jpg");
+    
+}
+.sectionindex1{
+    // grid-template-columns: 100px 100px 100px 100px;
+    // grid-template-rows: 100px;
+    // width: 100%;
+    // height: 50px;
+    // display: flex;
+    // justify-content: space-between;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.sectionindex3{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.box-index div{
+    display: flex;
+    position: relative;
+}
+.grandtitreindex{
+    color: red;
+}
+.box-index{
+    border: 0.1em solid rgba($color: #c9c9cc, $alpha: 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    margin-right: 10px;
+    height: auto;
+    display: flex;
+    padding: 7px;
+    justify-content: space-around;
+
+    flex-direction: column;
+//     grid-column: 1;
+//   grid-row: 1;
+//     //width: 10px;
+    // height: 50px;
+}
+.sectionindex2box{
+    display: inline-grid;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.boxindexsection2{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+    justify-content: center;
+    width: 120px;
+    background-color: rgb(64, 64, 106);
+    height: 120px;
+    border-radius: 10%;
+    margin: 10px;
+}
+.boxindexsection2 i{
+    max-width: 100px;
+    height: auto;
+}
+.boxindexsection2 p{
+    color: white;
+}
+.choix{
+    text-decoration: none;
+    color: red;
+    justify-self: center;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.voirplusindex{
+    padding-left: 10px;
+}
+
+.decouvririndex{
+    display: flex;
+    align-items: center;
+    
+}
+
+.sectionindex3 > .box-index{
+    box-shadow: none;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
