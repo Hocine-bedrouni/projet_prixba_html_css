@@ -1,0 +1,123 @@
+
+main{
+    display: flex;
+    padding-top: 80px;
+}
+
+.global {
+    display: block;
+  margin: 0 auto;
+  }
+
+
+
+  .aside{
+    margin-right: 50px;
+    padding-left: 80px;
+   
+  }
+
+  .affichage{
+    width: 700px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+  .sec1{
+    display: flex;
+    margin-bottom: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 190px;
+   
+  }
+
+  .sec2{
+    width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .sec1>div>p{
+    font-size:25px;
+  }
+  
+  .sec1>img{
+    
+    margin-right: 45px;
+    padding: 13px;
+    
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sec2>img{
+   width: 150px;
+   padding-left: 30px;
+  }
+
+  .stock{
+    color: rgb(80, 214, 80);
+  }
+
+  .libelle{
+        font-weight: bold;
+        font-size: 17px;
+  }
+
+  .sec2>.stock {
+    position: absolute;
+    right: 8px;
+   bottom: 1px;
+  }
+
+  .red{
+    color: red;
+  }
+
+  li{
+    font-size: 23px;
+    list-style-type: circle;
+  }
+
+  .aff>p{
+    font-size: 26px;
+  }
+
+  .bouton {
+    background-color: rgb(255, 0, 0); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #f44336;
+    height: 40px;
+    border-radius: 12px;
+  }
+  
+  .bouton:hover {
+    background-color: #ffffff;
+    color: rgb(255, 0, 0);
+  }
+
+ .aff{
+    display: flex;
+    padding-right: 5px;
+ }
+
+ .aff>img{
+    margin-left: 15px;
+    padding-top: 25px;
+ }
+
+
+
+ .as{
+    display: flex;
+ }
+
+ .as>img{
+    padding-top: 25px;
+ }
