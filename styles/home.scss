@@ -35,6 +35,8 @@
     // justify-content: space-between;
     padding-top: 30px;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     padding-bottom: 30px;
 }
@@ -55,7 +57,7 @@
 .box-index{
     border: 0.1em solid rgba($color: #c9c9cc, $alpha: 0.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 200px;
+    width: 150px;
     margin-right: 10px;
     height: auto;
     display: flex;
@@ -70,6 +72,7 @@
 }
 .sectionindex2box{
     display: inline-grid;
+    
     max-width: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -80,14 +83,18 @@
     margin: 0 auto;
     padding: 0 auto;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     width: 120px;
     background-color: rgb(64, 64, 106);
     height: 120px;
     border-radius: 10%;
     margin: 10px;
 }
-.boxindexsection2 i{
-    max-width: 100px;
+.indexi{
+    font-size: 36px;
+    color: white;
     height: auto;
 }
 .boxindexsection2 p{
@@ -117,4 +124,16 @@
     border: none;
     display: flex;
     justify-content: space-around;
+}
+@media screen and (max-width: 700px) {
+    .sectionindex3{
+        flex-wrap: wrap;
+    }
+    .sectionindex2{
+        flex-wrap: wrap;
+    }
+    .sectionindex2box{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

@@ -33,6 +33,8 @@
 .sectionindex1 {
   padding-top: 30px;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   padding-bottom: 30px;
 }
@@ -56,7 +58,7 @@
 .box-index {
   border: 0.1em solid rgba(201, 201, 204, 0.5);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 200px;
+  width: 150px;
   margin-right: 10px;
   height: auto;
   display: flex;
@@ -77,6 +79,9 @@
   margin: 0 auto;
   padding: 0 auto;
   justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
   width: 120px;
   background-color: rgb(64, 64, 106);
   height: 120px;
@@ -84,8 +89,9 @@
   margin: 10px;
 }
 
-.boxindexsection2 i {
-  max-width: 100px;
+.indexi {
+  font-size: 36px;
+  color: white;
   height: auto;
 }
 
@@ -115,6 +121,21 @@
   border: none;
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 700px) {
+  .sectionindex3 {
+    flex-wrap: wrap;
+  }
+
+  .sectionindex2 {
+    flex-wrap: wrap;
+  }
+
+  .sectionindex2box {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
